@@ -7,8 +7,8 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   ignorePatterns: [],
   extends: [
-    "eslint:recommended",
-    "plugin:@typescript-eslint/recommended"
+    'eslint:recommended',
+    'plugin:@typescript-eslint/recommended'
   ],
   settings: {
     'react': {
@@ -31,7 +31,8 @@ module.exports = {
     'eqeqeq': ['error', 'smart'],
     'security/detect-object-injection': 'off',
     '@typescript-eslint/no-unused-vars': 0,
-    "@typescript-eslint/strict-boolean-expressions" : 'off'
+    '@typescript-eslint/strict-boolean-expressions' : 'off',
+    '@typescript-eslint/no-var-requires': ['off']
 
   }
 };
